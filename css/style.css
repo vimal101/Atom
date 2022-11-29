@@ -1,8 +1,7 @@
  body{
 
-   background-color: yellow;
+   background-image: url('D:\Atom\images\mountain.jpg');
  }
-
 
 
 
@@ -11,22 +10,31 @@
  background-color: black;
  width: 500px;
  height: 250px;
+  display: inline-block;
+ position: fixed;
+ left: 300px;
+ color: white;
+
  }
 
 
  .a{
  background-color: red;
-width: 500px;
+width: 200px;
 height: 250px;
-margin:0px 0px 0px 500px;
+
 border: solid 20px;
+display: inline-block;
+position: relative;
+right: 500px
  }
 
 
  .b{
    background-color: blue;
-   width: 500px;
+   width: 200px;
    height: 250px;
-   margin:0px 0px 0px 1040px;
    border: solid 10px;
+   display: inline-block;
+   position: relative;
  }
