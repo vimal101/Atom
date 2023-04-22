@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 const User = require('./model/user');
-const Chart = require('chart.js');
+const MyDataModel = require('./model/info');
 const Post = require('./model/posts');
 
 const notifier = require('node-notifier');
@@ -178,26 +178,3 @@ notifier.notify({
 app.listen(3000, function() {
   console.log('Server started on port 3000');
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
